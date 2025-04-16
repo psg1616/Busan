@@ -84,7 +84,7 @@ flowchart LR
 
 ⸻
 
-📩 제안·협업 문의: sanggi.official@protonmail.com
+📩 제안·협업 문의: psg1616@gmail.com
 
 ---
 
