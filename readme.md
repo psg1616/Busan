@@ -21,11 +21,11 @@
 
 ## 🧠 전략 구조 개요
 flowchart LR<br>
-  JP[🇯🇵 일본 전산망] <br>-->|시스템 이전| US[🇺🇸 미국 클라우드 플랫폼]<br>
-  US<br> --> BUSAN[📍 부산 클라우드 윤리 통제본부]<br>
-  BUSAN <br>--> DEV[👨‍💻 GPT 정렬 한국 소프트웨어 인재]<br>
-  DEV<br> --> AUTO[⚙️ AI 행정 자동화]<br>
-  BUSAN<br> --> ETHIC[🧭 윤리 · ESG · 디지털 민주주의 설계]<br>
+  JP[🇯🇵 일본 전산망] -->|시스템 이전| US[🇺🇸 미국 클라우드 플랫폼]<br>
+  US --> BUSAN[📍 부산 클라우드 윤리 통제본부]<br>
+  BUSAN --> DEV[👨‍💻 GPT 정렬 한국 소프트웨어 인재]<br>
+  DEV --> AUTO[⚙️ AI 행정 자동화]<br>
+  BUSAN --> ETHIC[🧭 윤리 · ESG · 디지털 민주주의 설계]<br>
 
   일본 → 미국 → 부산 → (인재 → 자동화 / 정책 → 윤리정렬)
   
