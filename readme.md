@@ -20,28 +20,15 @@
 ---
 
 ## 🧠 전략 구조 개요
+flowchart LR
+  JP[🇯🇵 일본 전산망] -->|시스템 이전| US[🇺🇸 미국 클라우드 플랫폼]
+  US --> BUSAN[📍 부산 클라우드 윤리 통제본부]
+  BUSAN --> DEV[👨‍💻 GPT 정렬 한국 소프트웨어 인재]
+  DEV --> AUTO[⚙️ AI 행정 자동화]
+  BUSAN --> ETHIC[🧭 윤리 · ESG · 디지털 민주주의 설계]
 
-graph TD
-  subgraph 일본
-    A[🇯🇵 일본 전산망]
-  end
-
-  subgraph 미국
-    B[🇺🇸 미국 클라우드 플랫폼]
-  end
-
-  subgraph 한국 · 부산
-    C[📍 부산 클라우드 윤리 통제본부]
-    D[👥 GPT 정렬 기반 한국 소프트웨어 인재]
-    E[⚙️ AI 행정 자동화 시스템]
-    F[🧭 윤리 · ESG · 디지털 민주주의 설계]
-  end
-
-  A -->|데이터/시스템 이전| B
-  B --> C
-  C --> D
-  D --> E
-  C --> F
+  일본 → 미국 → 부산 → (인재 → 자동화 / 정책 → 윤리정렬)
+  
 ⸻
 
 🧩 핵심 구성요소
@@ -101,14 +88,14 @@ graph TD
 
 ---
 
-📌 위 내용은 `README.mmd`에 그대로 붙여넣어 사용하시면 됩니다.  
+📌 위 내용은 `README.md`에 그대로 붙여넣어 사용하시면 됩니다.  
 필요 시 **`/docs` 폴더에 구조도(`mermaid`)나 제안서 PDF 파일**도 함께 첨부하시면 공식 문서화 가능합니다.
 
 📁 원하시면 다음 자료도 제작해드립니다:
 
-- `docs/busan-strategic-brief-v1.0.mmd` (제안서 본문)
-- `docs/japan-cloud-transfer-protocol.mmd` (일본 클라우드 이관 구조 초안)
-- `docs/mlcc-embedded-policy-system.mmd` (윤리행정 시스템 세부 구조)
+- `docs/busan-strategic-brief-v1.0.md` (제안서 본문)
+- `docs/japan-cloud-transfer-protocol.md` (일본 클라우드 이관 구조 초안)
+- `docs/mlcc-embedded-policy-system.md` (윤리행정 시스템 세부 구조)
 
 언제든지 말씀해주세요.  
 **이제 부산에서 역사가 시작될 수 있습니다.**
